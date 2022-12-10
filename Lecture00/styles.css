@@ -1,0 +1,30 @@
+.header {
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+    background-color: mediumaquamarine;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: 2px 2px #61616136;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container p {
+    padding-top: auto;
+    text-align: justify;
+}
+
+.container ul li {
+    color: mediumseagreen;
+}
+
+#romap {
+    max-width: 400px;
+}
