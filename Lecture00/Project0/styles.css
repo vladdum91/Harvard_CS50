@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
     margin:0; 
     padding:0;
+    height: 100%;
 }
 
 .header{
@@ -28,17 +29,28 @@ a:hover{
 }
 
 .container{
-    position: absolute;
+    position: relative;
     top: 30%;
     width: 100%;
+    height: 100%;
     text-align: center;
+}
+
+.espace{
+    position: relative;
+    height: 270px;
+}
+
+.logobar{
+    display: flex;
+    justify-content: center;
 }
 
 #logo{
    padding-bottom: 20px;
 }
 
-input[type=text] {
+.container input[type=text] {
     height: 44px;
     width: 100%;
     max-width: 584px;
@@ -49,19 +61,19 @@ input[type=text] {
     outline: none;
 }
 
-input[type=text]:focus {
+.container input[type=text]:focus {
     outline: none;
     border: 1px solid #ffffff;
     box-shadow: 0 0 5px #cccccc;
 }
 
-input[type=text]:hover {
+.container input[type=text]:hover {
     outline: none;
     border: 1px solid #ffffff;
     box-shadow: 0 0 5px #cccccc;
 }
 
-input[type=submit] {
+.container input[type=submit] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -81,3 +93,106 @@ input[type=submit] {
     border: 1px solid #cccccc;
     border-radius: 4px;
 }
+
+#slogo{
+    width: 74px;
+    margin-left: 20px;
+}
+
+.aheader{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: auto;
+    min-height: 70px;
+    margin-left: auto;
+}
+
+.bline{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.ptitle{
+    display: block;
+    color: #d93025;
+    font-size: 20px;
+    margin: 20px 45px 25px;
+}
+
+.mtext{
+    position: relative;
+    min-height: 20px;
+    margin: 20px 45px;
+}
+
+.as_container{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 20px 45px;
+}
+
+.as_container input[type=text]{
+    border-radius: 1px;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 100%;
+}
+
+.as_container input[type=text]:focus {
+    outline: none;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px #cccccc;
+}
+
+.as_mform{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    min-width: 500px;
+}
+
+.as_form{
+    display: flex;
+    min-height: 45px;
+    align-items: center;
+}
+
+.f_label{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.f_label1{
+    display: flex;
+    min-height: 45px;
+    padding: 0px 30px 0px 0px;
+    font-size: 15px;
+    align-items: center;
+}
+
+#as_button{
+    
+}
+
+.as_container input[type=submit] {
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    height: 30px;
+    text-decoration: none;
+    margin: 10px 0px;
+    min-width: 54px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    padding: 0px 15px;
+  }

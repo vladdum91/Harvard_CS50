@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="aheader">
+            <a href="index.html"><img src="googlelogo.png" alt="logo" id="slogo"></a>
+        </div>
+        <div class="ptitle">
+            <p>Advanced search</p>
+        </div>
+        <div class="bline"></div>
+        <div class="mtext">
+            <p>Find pages with...</p>
+        </div>
+        <div class="as_container">
+            <div class="f_label">
+                <div class="f_label1"><label for="as_q">all these words:</label></div>
+                <div class="f_label1"><label for="as_epq">this exact word or phrase:</label></div>
+                <div class="f_label1"><label for="as_oq">any of these words:</label></div>
+                <div class="f_label1"><label for="as_eq">none of these words:</label></div>
+            </div>
+            <form class="as_mform" action="https://www.google.ro/search">
+                <div class="as_form">
+                    <input class="jfk-textinput" type="text" name="as_q">
+                </div>
+                <div class="as_form">
+                    <input class="jfk-textinput" type="text" name="as_epq">
+                </div>
+                <div class="as_form">
+                    <input class="jfk-textinput" type="text" name="as_oq">
+                </div>
+                <div class="as_form">
+                    <input class="jfk-textinput" type="text" name="as_eq">
+                </div>
+                <div>
+                    <input id="as_button" type="submit" name="tbs" value="Advanced search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
